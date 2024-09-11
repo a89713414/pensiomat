@@ -8,7 +8,6 @@
 # testing
 /coverage
 /build
-/image_upload
 
 # misc
 .DS_Store
