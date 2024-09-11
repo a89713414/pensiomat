@@ -33,7 +33,7 @@ const MasterForm = ({ contactId }) => {
 
     try {
       const response = await axios.post(
-        "https://www.pensiomat.com/api/contact/survey",
+        "http://localhost:5001/api/contact/survey",
         data
       );
 

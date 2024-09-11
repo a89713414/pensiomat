@@ -48,7 +48,7 @@ const Form = ({ formData, formRef, shortForm = false }) => {
 
     try {
       const response = await axios.post(
-        "https://www.pensiomat.com/api/contact",
+        "http://localhost:5001/api/contact",
         data
       );
 

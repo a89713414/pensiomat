@@ -1,3 +1,4 @@
+require("dotenv").config();
 const axios = require("axios");
 
 const addNoteToContact = async (contactId, note) => {
@@ -21,7 +22,7 @@ const addNoteToContact = async (contactId, note) => {
     method: "post",
     url: "https://api.hubapi.com/engagements/v1/engagements",
     headers: {
-      Authorization: "Bearer pat-eu1-32c4294e-1080-4aae-a403-a53c6dcc963b",
+      Authorization: `Bearer ${process.env.HUBSPOT_API_TOKEN}`,
       "Content-Type": "application/json",
     },
     data: JSON.stringify(noteData),
