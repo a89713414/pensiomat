@@ -9,7 +9,7 @@ async function createFolder(folderName) {
       },
       {
         headers: {
-          Authorization: `Bearer pat-eu1-a5293894-cd97-47dd-b590-6f46f09de1cc`,
+          Authorization: `Bearer `,
           "Content-Type": "application/json",
         },
       }
