@@ -1,0 +1,74 @@
+.main_wrapper {
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+
+.badge {
+    height: 30px;
+    margin: 6px 0px 6px 0px;
+    white-space: nowrap;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #052f58;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: 20px;
+    font-stretch: normal;
+    letter-spacing: normal;
+
+}
+
+.stop_text {
+    line-height: 1.5;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    margin-bottom: 0;
+}
+
+.main_img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    /* Optional: set a background color */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main_wrapper {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main_img_container {
+        padding: 0;
+    }
+
+    .stop_text {
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+
+}

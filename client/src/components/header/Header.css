@@ -1,0 +1,22 @@
+.logo {
+    height: 100%;
+    width: 300px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .bg-body-tertiary {
+        padding: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .main_header h3 {
+        font-weight: bold;
+    }
+
+}

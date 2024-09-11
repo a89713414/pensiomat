@@ -1,0 +1,81 @@
+/* FooterWrapper */
+.dark {
+    background-color: rgb(51, 51, 51);
+}
+
+.footer {
+    display: flex;
+    direction: rtl;
+    padding: 0.2rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.footer-main {
+    background-color: #333333;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* FooterText */
+.footer-text {
+    margin: 0;
+}
+
+.footer-text-main {
+    color: white;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-text-main {
+        font-size: 12px;
+    }
+}
+
+.footer-text:not(.footer-text-main) {
+    color: #333;
+    font-size: 16px;
+}
+
+/* LtdText */
+.ltd-text {
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    gap: 7.5rem;
+    padding: 0 5rem;
+    position: relative;
+    margin-top: 2rem;
+    color: inherit;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+/* ContactList */
+.contact-list {
+    margin: 2rem 0;
+    display: grid;
+    gap: 1rem;
+}
+
+
+/* ContactDetails */
+.contact-details {
+    font-size: small;
+    padding-right: 5px;
+}
