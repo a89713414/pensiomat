@@ -6,7 +6,7 @@ const updateContact = async (contactId, properties) => {
     method: "patch",
     url: `https://api.hubapi.com/crm/v3/objects/contacts/${contactId}`,
     headers: {
-      Authorization: `Bearer ${process.env.HUBSPOT_API_TOKEN}`,
+      Authorization: `Bearer pat-eu1-32c4294e-1080-4aae-a403-a53c6dcc963b`,
       "Content-Type": "application/json",
     },
     data: JSON.stringify({ properties }),
